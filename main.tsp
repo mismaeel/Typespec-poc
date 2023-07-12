@@ -3,7 +3,7 @@ import "./library.tsp";
 
 using TypeSpec.Http;
 @service({
-    title: "Widget Service",
+    title: "customer Service",
     version: "1.1.0",
 })
 @doc("Customer Demo Service API")
