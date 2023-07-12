@@ -4,7 +4,7 @@ import "./library.tsp";
 using TypeSpec.Http;
 @service({
     title: "customer Service",
-    version: "1.2.2",
+    version: "1.2.3",
 })
 @doc("Customer Demo Service API")
 namespace DemoService;
