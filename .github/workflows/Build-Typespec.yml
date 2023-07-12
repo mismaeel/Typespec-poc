@@ -1,6 +1,9 @@
 name: Build-Typespec CI
 
 on:
+  push:
+    paths:
+      - 'main.tsp'
   workflow_dispatch:
 
 env:
