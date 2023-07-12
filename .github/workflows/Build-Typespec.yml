@@ -34,7 +34,7 @@ jobs:
         
       - name: Commit and Push changes
         run: |
-          git config user.name github-actions
+          git config user.name mismaeel
           git config user.email github-actions@gmail.com
           git add tsp-output/@typespec/openapi3/openapi.yaml
           # git add --all
