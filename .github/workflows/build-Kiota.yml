@@ -3,7 +3,7 @@ name: Build Kiota
 on:
   push:
     paths:
-      - 'tsp-output/@typespec/openapi3/**'
+      - 'tsp-output/@typespec/openapi3/openapi.yaml'
   workflow_dispatch:
 
 jobs:
