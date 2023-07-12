@@ -4,6 +4,10 @@ on:
   push:
     paths:
       - 'tsp-output/@typespec/openapi3/openapi.yaml'
+  workflow_run:
+    workflows: ["Build-Typespec CI"]
+    types:
+      - completed    
   workflow_dispatch:
 
 jobs:
